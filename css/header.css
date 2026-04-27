@@ -11,6 +11,10 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 200;
+
+  display: inline-block;
+
+  transition: transform 0.8s ease, color 0.8s ease;
 }
 
 .logo-header {
@@ -24,6 +28,11 @@
 
 .menu-header {
   display: none;
+  align-items: center;
+}
+
+.logo-menu-desktop {
+  width: 70px;
 }
 
 .menu-header a:hover {
@@ -31,6 +40,7 @@
   font-size: 24px;
   padding-bottom: 4px;
   border-bottom: 1px solid #f4a460;
+  transform: scale(1.2);
 }
 
 .btn-header {
@@ -59,16 +69,23 @@
   .header-menu {
     height: 70px;
   }
+  .menu-header img {
+    display: none;
+  }
 
   .icons-768-header img {
     padding-right: 30px;
     height: 24px;
   }
 
-   .icons-768-header {
+  .icons-768-header {
     display: flex;
     cursor: pointer;
     gap: 28px;
+  }
+
+  .icons-768-header a {
+    transition: transform 0.5s ease;
   }
 
   .icons-768-header a:hover {
@@ -96,12 +113,7 @@
 
   .btn-header {
     display: none;
-  }
 
-
-
-  .icons-768-header a:hover {
-    
   }
 
 }
@@ -132,9 +144,9 @@
   }
 
   .logo-header img {
-    width: 100px;
+    width: 70px;
     height: auto;
   }
 
-  
+
 }
