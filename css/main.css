@@ -34,7 +34,6 @@
 .balde-entradas img {
   height: 28vh;
   margin: 20px;
-  border: 1px solid white;
 }
 
 .entrada {
@@ -45,6 +44,9 @@
   font-size: 20px;
   font-weight: 300;
   margin-top: 30px;
+}
+.entrada img {
+  border: 1px solid white;
 }
 
 @media screen and (min-width: 768px) {
