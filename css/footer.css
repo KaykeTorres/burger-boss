@@ -1,0 +1,16 @@
+.page-footer {
+    margin: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+    .page-footer {
+    font-size: 26px;
+}
+
+.page-footer img {
+    height: 250px;
+}
+
+}

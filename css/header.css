@@ -24,6 +24,7 @@
 .logo-header img {
   width: 106px;
   height: auto;
+  
 }
 
 .menu-header {
@@ -61,35 +62,13 @@
 }
 
 
-.icons-768-header {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   .header-menu {
+    align-items: center;
     height: 70px;
   }
   .menu-header img {
     display: none;
-  }
-
-  .icons-768-header img {
-    padding-right: 30px;
-    height: 24px;
-  }
-
-  .icons-768-header {
-    display: flex;
-    cursor: pointer;
-    gap: 28px;
-  }
-
-  .icons-768-header a {
-    transition: transform 0.5s ease;
-  }
-
-  .icons-768-header a:hover {
-    transform: scale(1.6);
   }
 
   .header-menu a {
@@ -103,7 +82,7 @@
 
   .logo-header {
     padding-left: 20px;
-    margin-top: 20px;
+    margin-top: 0;
   }
 
   .logo-header img {
@@ -130,17 +109,6 @@
   .menu-header {
     display: flex;
     gap: 48px;
-  }
-
-  .icons-768-header {
-    display: flex;
-    padding-right: 70px;
-    gap: 60px;
-  }
-
-  .icons-768-header img {
-    width: 32px;
-    height: auto;
   }
 
   .logo-header img {
