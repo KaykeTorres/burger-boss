@@ -25,18 +25,18 @@
   letter-spacing: 5px;
 }
 
-.img-entradas img {
+.category-cover img {
   height: 20vh;
   width: 100%;
   margin-top: 16px;
 }
 
-.balde-entradas img {
+.menu-grid img {
   height: 28vh;
   margin: 20px;
 }
 
-.entrada {
+.menu-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,8 @@
   font-weight: 300;
   margin-top: 30px;
 }
-.entrada img {
+
+.menu-card img {
   border: 1px solid white;
 }
 
@@ -54,15 +55,15 @@
     height: 82vh;
   }
 
-  .img-entradas img {
+  .category-cover img {
     height: 50vh;
   }
 
-  .balde-entradas img {
+  .menu-grid img {
     height: 40vh;
   }
 
-  .opcao-entradas {
+  .item-name {
     font-size: 26px;
   }
 }
@@ -72,7 +73,7 @@
     height: 90vh;
   }
 
-  .img-entradas img {
+  .category-cover img {
     height: 60vh;
   }
 
@@ -88,7 +89,7 @@
     font-size: 40px;
   }
 
-  .balde-entradas {
+  .menu-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -96,13 +97,13 @@
     padding: 16px;
   }
 
-  .balde-entradas .entrada:last-child {
+  .menu-grid .menu-card:nth-child(odd):last-child {
     grid-column: 1 / -1;
     justify-self: center;
     width: 50%;
   }
 
-  .opcao-entradas {
+  .item-name {
     font-size: 22px;
   }
 }
@@ -112,7 +113,7 @@
     height: 120vh;
   }
 
-  .img-entradas img {
+  .category-cover img {
     height: 50vh;
   }
 }
