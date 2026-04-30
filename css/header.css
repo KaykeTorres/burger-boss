@@ -4,6 +4,12 @@
   align-items: center;
   justify-content: space-between;
   height: 54px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
 }
 
 .menu-header a {
@@ -18,13 +24,13 @@
 }
 
 .logo-header {
-  margin-top: 14px;
+  margin-top: 0;
 }
 
 .logo-header img {
   width: 106px;
-  height: auto;
-  
+  height: 54px;
+  object-fit: contain;
 }
 
 .menu-header {
@@ -73,11 +79,14 @@
 
   .header-menu a {
     font-size: 20px;
+    
   }
 
   .menu-header {
     display: flex;
-    gap: 26px;
+    gap: 50px;
+    flex: 1;
+    justify-content: center;
   }
 
   .logo-header {
@@ -87,7 +96,7 @@
 
   .logo-header img {
     width: 130px;
-    height: auto;
+    height: 70px;
   }
 
   .btn-header {
@@ -108,13 +117,19 @@
 
   .menu-header {
     display: flex;
-    gap: 48px;
+    gap: 80px;
   }
 
   .logo-header img {
     width: 150px;
-    height: auto;
+    height: 86px;
   }
 
 
+}
+
+@media screen and (min-width: 1920px) {
+  .menu-header {
+    gap: 120px;
+  }
 }
