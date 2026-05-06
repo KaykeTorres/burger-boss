@@ -124,8 +124,13 @@ header p {
 }
 
 .icon-telefone {
-  font-size: 22px;
+  font-size: 16px;
   margin: 26px 26px 26px 20px;
+}
+
+.icon-telefone img {
+  height: 18px;
+  width: auto;
 }
 
 
