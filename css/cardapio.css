@@ -57,9 +57,9 @@ header p {
 }
 
 .menu a {
-  padding: 8px;
-  width: 140px;
-  font-size: 22px;
+  padding: 6px;
+  width: 100px;
+  font-size: 14px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 16px;
   text-align: center;
@@ -68,7 +68,7 @@ header p {
 
 .menu a:hover {
   background-color: rgba(255, 255, 255, 0.20);
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .menu-grid {
@@ -139,6 +139,8 @@ header p {
 
   .menu a {
     width: 200px;
+    font-size: 24px;
+    padding: 8px;
   }
 
   .menu a:hover {
